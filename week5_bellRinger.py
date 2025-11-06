@@ -88,4 +88,7 @@ word = "moonlight"
 word_in_quote = print(word in quote)
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
+long_word = "Supercalifragilisticexpialidocious"
+lenght_of_long_word = print(len(long_word))
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
+count_of_i = print(long_word.count('i'))
