@@ -40,10 +40,18 @@ john_f_kennedy = print(famous_quote.find('John F. Kennedy'))
 extracted_name = print(famous_quote[83:])
 # Manipulating Words:
 # Given the string info = "Python is fun. Fun is good. Good is subjective.",
+info = "Python is fun. Fun is good. Good is subjective."
+len_opi_python = print(len(info))
 # a. Extract the word 'subjective' without knowing its exact position.
+subjective = print(info.index("subjective"))
+subjective_2 = print(info[36:-1])
 # b. Extract every third word.
+third_word = print(info[0:47:3])
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
-
+words = info.split() 
+print(words)
+reversed_words = ' '.join(reversed(words))
+print(reversed_words)
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
