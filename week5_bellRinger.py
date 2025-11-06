@@ -35,6 +35,9 @@ reverse_i_have_a_dream = print(i_have_a_dream[ : : -1])
 # From Descriptions:
 # Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
 
+famous_quote = "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
+john_f_kennedy = print(famous_quote.find('John F. Kennedy'))
+extracted_name = print(famous_quote[83:])
 # Manipulating Words:
 # Given the string info = "Python is fun. Fun is good. Good is subjective.",
 # a. Extract the word 'subjective' without knowing its exact position.
