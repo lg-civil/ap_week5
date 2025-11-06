@@ -22,7 +22,7 @@ hij2 = print(alphabet[7:10])
 # b. Extract every second letter starting from 'a' to 'm'.
 # get the letter m 
 
-m_index = print(alphabet.index)
+m_index = print(alphabet.index('m'))
 every_second = print(alphabet[0:13:2])
 # c. Reverse the entire string using slicing.
 reverse_alphabet = print(alphabet[ : : -1])
