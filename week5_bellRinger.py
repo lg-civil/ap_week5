@@ -70,8 +70,12 @@ print(a_motto)
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
 # a. Replace "busy" with "distracted".
+life = "Life is what happens when you are busy making other plans."
+new_life = life.replace("busy", "distracted")
+print(new_life)
 # b. Replace "plans" with "mistakes".
-
+new_life2= life.replace("busy", "distracted").replace("plans", "mistakes")
+print(new_life2)
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
 # Concatenate the word "Iteration" 7 times.
